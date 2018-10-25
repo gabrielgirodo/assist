@@ -1,0 +1,5 @@
+<select class="form-control">
+    <option value="0">Choose an option...</option>
+    <option *ngFor="let topCU of vTopCUList" 
+    value="topCU.id" (click)="onChange(topCU)">{{topCU.name}}</option>
+</select>

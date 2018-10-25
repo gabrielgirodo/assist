@@ -1,0 +1,17 @@
+<app-top-cu></app-top-cu>
+<table class="table table-striped">
+  <thead>
+    <th>
+      Id
+    </th>
+    <th>
+        Name
+    </th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let functionAreaKd of listToDisplay">
+      <td>{{functionAreaKd.id}}</td>
+      <td>{{functionAreaKd.name}}</td>
+    </tr>
+  </tbody>
+</table>
