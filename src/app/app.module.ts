@@ -13,6 +13,7 @@ import { functionAreaKDService } from './shared/Service/functionAreaKD.Service';
 import { HeaderComponent } from './header/header.component';
 import { LanguageComponent } from './header/language/language.component';
 import { TestComponent } from './test/test.component';
+import { WhateverComponent } from './whatever/whatever.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TestComponent } from './test/test.component';
     FunctionAreaKDComponent,
     HeaderComponent,
     LanguageComponent,
-    TestComponent
+    TestComponent,
+    WhateverComponent
   ],
   imports: [
     BrowserModule,
